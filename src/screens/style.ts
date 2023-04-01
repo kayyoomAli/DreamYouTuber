@@ -1,0 +1,170 @@
+import {StyleSheet} from 'react-native';
+
+export const styles = StyleSheet.create({
+  renderItemContainerStyle: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    justifyContent: 'space-between',
+    height: 50,
+    borderWidth: 1,
+    paddingHorizontal: 10,
+  },
+  innerContainerStyle: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    width: 150,
+  },
+  profileImageStyle: {
+    height: 30,
+    width: 30,
+    tintColor: 'white',
+  },
+  infoButtonImageStyle: {
+    height: 10,
+    width: 10,
+    marginLeft: 5,
+    tintColor: 'white',
+  },
+  addIconStyle: {
+    height: 15,
+    width: 15,
+    tintColor: 'white',
+  },
+  ListHeaderComponenetStyle: {
+    height: 60,
+    marginBottom: 20,
+    zIndex: 1,
+    elevation: 2,
+  },
+  innerHeaderStyle: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    justifyContent: 'center',
+    padding: 10,
+    backgroundColor: 'black',
+  },
+  backarrowImageStyle: {
+    height: 15,
+    width: 15,
+    tintColor: 'white',
+    backgroundColor: '#252339',
+  },
+  searchImageStyle: {
+    height: 15,
+    width: 15,
+    tintColor: 'white',
+    padding: 15,
+    marginHorizontal: 10,
+  },
+  imagePressStyle: {
+    backgroundColor: '#252339',
+    padding: 8,
+    borderRadius: 5,
+  },
+  listHeaderDetails: {
+    flexDirection: 'row',
+    justifyContent: 'space-between',
+    paddingHorizontal: 10,
+    backgroundColor: '#252339',
+    paddingVertical: 5,
+  },
+  innerHeaderViewStyle: {
+    flexDirection: 'row',
+    width: 150,
+    justifyContent: 'space-between',
+    marginRight: 30,
+  },
+  mainViewStyle: {
+    flex: 1,
+    backgroundColor: '#0d0b22',
+  },
+  topcustomHeaderStyle: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    justifyContent: 'space-between',
+    paddingHorizontal: 10,
+  },
+  categoryMainViewStyle: {
+    flexDirection: 'row',
+    backgroundColor: '#252339',
+    marginTop: 10,
+  },
+  iconStyle: {
+    height: 20,
+    width: 20,
+  },
+  avgPointsTextStyle: {
+    fontSize: 9,
+    textAlign: 'center',
+    color: 'white',
+    opacity: 0.7,
+  },
+  countsTextStyle: {
+    fontSize: 10,
+    color: 'white',
+    fontWeight: 'bold',
+    textAlign: 'center',
+  },
+  metaDataImageStyel: {
+    height: 20,
+    width: 20,
+    marginTop: 5,
+  },
+  metaDataViewStle: {
+    alignItems: 'center',
+    height: 90,
+    paddingTop: 5,
+  },
+  headerViewStyle: {
+    alignItems: 'center',
+    borderBottomWidth: 1,
+    paddingVertical: 5,
+  },
+  container: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    justifyContent: 'flex-end',
+    padding: 8,
+  },
+  searchButton: {
+    color: '#007AFF',
+    fontWeight: 'bold',
+    fontSize: 18,
+  },
+  inputContainer: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    backgroundColor: '#F2F2F2',
+    borderRadius: 8,
+    marginRight: 8,
+    paddingHorizontal: 8,
+  },
+  input: {
+    flex: 1,
+    paddingVertical: 4,
+    fontSize: 16,
+  },
+  clearButton: {
+    color: '#007AFF',
+    fontSize: 16,
+    marginLeft: 8,
+  },
+  TextInputViewStyle: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    marginHorizontal: 10,
+    marginVertical: 10,
+  },
+  textInputStyle: {
+    backgroundColor: 'white',
+    height: 40,
+    paddingHorizontal: 20,
+    borderWidth: 2,
+    borderColor: 'red',
+    borderRadius: 50,
+    flex: 1,
+  },
+  textColorStyle: {
+    color: 'white',
+  },
+});
